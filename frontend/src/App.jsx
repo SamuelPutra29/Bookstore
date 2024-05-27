@@ -1,10 +1,10 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import { Home } from './pages/Home'; //Home from './pages/Home';
-import { CreateBook } from './pages/CreateBooks'; //CreateBook from './pages/CreateBooks';
-import { ShowBook } from './pages/ShowBook'; //ShowBook from './pages/ShowBook';
-import { EditBook } from './pages/EditBook'; //EditBook from './pages/EditBook';
-import { DeleteBook } from './pages/DeleteBook'; //DeleteBook from './pages/DeleteBook';
+import Home from './pages/Home';
+import CreateBook from './pages/CreateBooks';
+import ShowBook from './pages/ShowBook';
+import EditBook from './pages/EditBook';
+import DeleteBook from './pages/DeleteBook';
 
 const App = () => {
   return (
